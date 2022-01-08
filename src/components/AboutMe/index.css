@@ -1,0 +1,74 @@
+:root {
+    --primary-color: #2190ff;
+    --text-color: #fff9f9;
+    --text-color-secundary: rgba(250, 250, 250, 0.8);
+    --secundary-color: yellow;
+    --hover-card: rgba(4, 4, 4, 0.5);
+}
+
+.about {
+    /*background-image: url('./experience.png');*/
+    background-color: black;
+    box-shadow: 0 0 6em 8em black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    text-align: center;
+    padding: 100px 0 120px;
+    color: white;
+}
+
+.about h3 {
+    font-size: 28px;
+    width: 70%;
+}
+.about p {
+    font-size: 20px;
+    color: var(--text-color-secundary);
+    width: 60%;
+}
+
+.highlight {
+    color: #2190ff;
+    font-weight: 700;
+}
+
+.brackets {
+    position: relative;
+}
+.brackets:before {
+    content: '<';
+    position: absolute;
+    left: -27%;
+    top: 50%;
+    color: #2190ff;
+    font-size: 120px;
+}
+
+.brackets:after {
+    content: '>';
+    position: absolute;
+    right: -27%;
+    top: 50%;
+    color: #2190ff;
+    font-size: 120px;
+}
+
+@media (max-width: 671px) {
+   .brackets:before {
+       display: none;
+   }
+   .brackets:after {
+       display: none;
+   }
+    .about h3 {
+        width: 85%;
+    }
+    .about p {
+        font-size: 20px;
+        color: var(--text-color-secundary);
+        width: 80%;
+    }
+}

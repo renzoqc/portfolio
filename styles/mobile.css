@@ -1,0 +1,116 @@
+@media screen and (max-width: 760px) {
+    .header {
+        padding: 0 25px;
+    }
+
+    .hero {
+        padding-top: 150px;
+    }
+
+    .hero__profile {
+        box-shadow: 0 0 0.2em 0.05em var(--text-color);
+    }
+
+    .hero__name {
+        margin-top: 8px;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 42px;
+        text-shadow: 0 0 4px var(--text-color);
+    }
+
+    .hero__titles {
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .hamburger__line {
+        background-color: var(--text-color);
+        width: 28px;
+        height: 2px;
+        margin: 2px 0;
+    }
+
+
+    .about {
+        padding: 120px 0 65px;
+    }
+
+    .about h3,
+    .about p  {
+        width: 100%;
+        padding: 0 12px;
+    }
+
+    .about p {
+        font-size: 16px;
+        line-height: 22px;
+        color: var(--text-color-secundary)
+    }
+
+    .experience {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .section__title h3 {
+        font-size: 25px;
+    }
+
+    .projects__title h3 {
+        font-size: 25px;
+    }
+
+    .card__project {
+        width: 100%;
+    }
+
+    .card__project-content{
+        width: 100%;
+        bottom: 52px;
+        padding: 8px;
+    }
+    .card__project-title {
+        font-size: 18px;
+    }
+
+    .card__project-content p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /*FOOTER*/
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 2px
+    }
+
+    .contact-card {
+        grid-template-rows: 40px 40px 0;
+        height: 100px;
+    }
+ 
+    .contact-card h6 {
+        display: none;
+    }
+
+    .contact__title {
+        margin: 40px 0 20px;
+    }
+
+    .contact__title h3 {
+        font-size: 25px;
+    }
+
+    .credits {
+        margin-top: 40px;
+    }
+
+    .social-img {
+        display: none;
+    }
+}
+

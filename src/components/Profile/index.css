@@ -1,0 +1,48 @@
+.background {
+    width: 100%;
+    height: 1100px;
+    background: linear-gradient(to top, black, 20%, transparent),
+    url('./background.jpeg') no-repeat 50% 30%;
+}
+.profile {
+    width: 100%;
+    padding-top: 200px;
+}
+.profile img {
+    width: 200px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border-radius: 187px;
+    border: 3px solid #2190ff;
+    box-shadow: 0 0 30px #fff;
+}
+.profile p {
+    color: white;
+    text-align: center;
+}
+.profile .name {
+    margin-top: 70px;
+    font-size: 80px;
+    margin-bottom: 0;
+    font-family: Georgia, serif;
+}
+.profile .phrase {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.profile .show-more {
+    margin: 80px auto 220px auto;
+    display: block;
+    background-color: #2190ff;
+    color: white;
+    max-width: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: center;
+    text-decoration: none;
+}

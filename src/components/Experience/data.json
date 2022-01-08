@@ -1,0 +1,18 @@
+[
+  {
+    "company": "Uncodeit EIRL",
+    "logo": "logo_uncodeit.jpeg",
+    "title": "Full Stack Developer",
+    "time": "Aug 2021 - Current",
+    "description": "Develop Full-Stack CRUD platforms to handle data related to telecommunications sector like network inventory, management of projects, office tracking. Support and maintenance of Apps in PHP, REST integrations, data extraction, network KPIs analysis.",
+    "technologies": "NodeJS, MongoDB, Express, ReactJs, Docker, Gitlab, REST"
+  },
+  {
+    "company": "Indra Perú",
+    "logo": "logo_indra.png",
+    "title": "Young professional",
+    "time": "Nov 2020 - Aug 2021",
+    "description": "Software company dedicated to improve administrative processes and logistics. Development of platforms for the internal control of the entry of materials to the project. Generation of reports on current logistics and comparative tables. Generation of dashboards for project service estimation.",
+    "technologies": "Nodejs, Express, Python, Bootstrap, PostgreSQL, REST"
+  }
+]
