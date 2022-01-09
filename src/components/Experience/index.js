@@ -20,8 +20,9 @@ const styleContainerImage = {
 const styleImage = {
 	// width: '100%',
 	height: '120px',
-	margin: '0',
+	// margin: '0',
 	padding: '10px',
+	marginTop: '50px',
 	backgroundColor: 'white',
 	borderRadius: '50%'
 }
@@ -39,7 +40,11 @@ const styleCard = {
 
 const styleContainerText = {
 	backgroundColor: 'rgba(1, 5, 43, 1)',
-	padding: '10px 20px',
+	paddingTop: '50px',
+	paddingBottom: '40px',
+	paddingLeft: '20px',
+	paddingRight: '20px',
+
 	textAlign: 'left'
 }
 
